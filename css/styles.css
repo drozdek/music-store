@@ -1,0 +1,7 @@
+form input {
+    float: none;
+}
+
+li:hover {
+    background-color: rgba(169, 169, 169, .7);
+}

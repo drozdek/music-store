@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <link rel="stylesheet" href="./css/styles.css" />
+  <link rel="stylesheet" href="./css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+    crossorigin="anonymous">
+  <script src="./scripts/lib/jquery-3.3.1.min.js"></script>
+  <meta charset="utf-8" />
+  <title>Music store...</title>
+</head>
+
+<body>
+  <div class="container-fluid">
+    <div class="col">
+
+      <h3>Artists list:</h3>
+      <ul id="songList">
+      </ul>
+
+      <form id="mainForm">
+        <label for="artistName">Artist name</label><input type="text" placeholder="Add artist" id="artistName" /><br />
+        <label for="genre">Genre</label><input type="text" placeholder="Genre" id="genre" /><br />
+        <label for="albumCover">Album cover</label><input type="text" placeholder="Album cover" id="albumCover" /><br />
+        <label for="yearOfRelease">Year of release</label><input type="text" placeholder="Year of release" id="yearOfRelease" /><br />
+        <label for="spotifyLink">Spotify link</label><input type="text" placeholder="Spotify link" id="spotifyLink" /><br />
+        <label for="artistAlbums">Artist album</label><input type="text" placeholder="Artist album" id="artistAlbums" />
+        <input type="submit" value="Send" id="send"/>
+      </form>
+
+    </div>
+  </div>
+  <script src="./scripts/js.js"></script>
+
+</body>
+
+</html>
